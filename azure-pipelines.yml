@@ -27,7 +27,7 @@ steps:
    # sonar.exclusions=**/*.bin
    extraProperties: |
       sonar.projectKey=johanbejarano_sonar-cloud-lab2
-      sonar.organization='ohanbejarano-org
+      sonar.organization=johanbejarano-org
      # sonar.coverage.jacoco.xmlReportPaths=CCReport43F6D5EF/jacoco.xml
      # Initial behavior of Maven task is that the SonarScanner uses information contained in Maven
      # object model to provide smart defaults for most of the standard analysis parameters.
