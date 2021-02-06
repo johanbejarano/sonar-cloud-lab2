@@ -18,7 +18,7 @@ pool:
 steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis configuration'
-  inputs:
+  inputs: 
    SonarCloud: 'sonarcloud'
    organization: 'johanbejarano-org'
    scannerMode: Other
