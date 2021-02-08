@@ -16,6 +16,7 @@ pool:
  vmImage: 'ubuntu-20.04'
  
 steps:
+
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis configuration'
   inputs: 
